@@ -1,0 +1,49 @@
+# Node modules directory
+node_modules/
+
+# Tailwind generated CSS file (if it's built locally)
+public/css/*.css
+dist/css/*.css
+
+# Tailwind cache (if using JIT mode)
+tailwind.config.js
+
+# Build artifacts and production directories
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS or Editor directories/files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables file
+.env
+.env.local
+.env.*.local
+
+# Ignore package-lock or yarn.lock if you're using a different package manager
+# npm:
+package-lock.json
+# yarn:
+yarn.lock
+# pnpm:
+pnpm-lock.yaml
+
+# Optional: ignore the coverage directory if you're running tests
+coverage/
+
+# Optional: ignore compiled JavaScript/TypeScript output
+*.js
+*.jsx
+*.ts
+*.tsx
+*.map
